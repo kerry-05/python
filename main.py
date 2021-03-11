@@ -8,14 +8,11 @@ def flask():
 
 @app.route("/")
 def test():
-	import bug
-	bug.test()
-	return"hello"
+	return render_template('bug.html')
 
 @app.route('/chess')
 def index():
 	return render_template('chess.html')
-
 
 if __name__ == "__main__":
 	app.run(debug=True)

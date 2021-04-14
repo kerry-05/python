@@ -35,7 +35,7 @@ def showpage(url, kind):
         print("出版社:"+publish)
         print("出版日期:"+date)
         print(onsale)
-        print("內容:"+content)
+        #print("內容:"+content)
         n+=1
         print("n=",n)
             #if n==2: break#
